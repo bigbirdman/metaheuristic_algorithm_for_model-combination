@@ -6,7 +6,7 @@ from sklearn import metrics
 import copy
 
 
-# 类封装的樽海鞘算法，可以处理单目标和多目标
+# 樽海鞘算法，可以处理单目标和多目标
 class SalpSwarmAlgorithm():
     def __init__(self, swarm_size, min_values, max_values, iterations, measure_function, *result_vec):
         self.swarm_size = swarm_size
