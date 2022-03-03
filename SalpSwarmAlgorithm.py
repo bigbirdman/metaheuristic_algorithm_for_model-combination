@@ -119,7 +119,6 @@ class SalpSwarmAlgorithm():
                 self.repository.append(i)
             else:
                 self.pareto_dominance_operators(i)
-        # print(self.repository)
 
     # Function: Updtade Food Position by Fitness
     def update_food(self):
@@ -176,7 +175,6 @@ class SalpSwarmAlgorithm():
             self.position[i][
             self.variable_num:self.variable_num + len(self.measure_function)] = self.multi_combinatorial_model_optimization(
                 self.position[i, 0:self.position.shape[1] - len(self.measure_function)])
-            # print(self.position)
 
     #SSA Function
     def salp_swarm_algorithm(self):
